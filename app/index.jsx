@@ -40,9 +40,15 @@ export default function App() {
             exploration with Aora{" "}
           </Text>
 
-          <CustomButton />
+          <CustomButton
+            title="Continue with Email"
+            handlePress={() => {}}
+            containerStyles="w-full mt-7"
+          />
         </View>
       </ScrollView>
+
+      <StatusBar backgroundColor="#161622" style="light" />
     </SafeAreaView>
   );
 }
