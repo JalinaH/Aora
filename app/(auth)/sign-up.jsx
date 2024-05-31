@@ -34,8 +34,6 @@ const SignUp = () => {
     } finally {
       setIsSubmitting(false);
     }
-
-    createUser();
   };
 
   return (
