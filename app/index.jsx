@@ -4,7 +4,7 @@ import { Image, ScrollView, Text, View } from "react-native";
 import { SafeAreaView } from "react-native-safe-area-context";
 
 import { images } from "../constants";
-import CustomButton from "../components/CustomButton"
+import CustomButton from "../components/CustomButton";
 import { useGlobalContext } from "../context/GlobalProvider";
 
 const Welcome = () => {
@@ -56,6 +56,6 @@ const Welcome = () => {
       <StatusBar backgroundColor="#161622" style="light" />
     </SafeAreaView>
   );
-}
+};
 
 export default Welcome;
